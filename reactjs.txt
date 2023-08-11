@@ -1,3 +1,2 @@
 react js is javascript library hhhh
-Bootstrap also library
 welcome
