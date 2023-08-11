@@ -1,1 +1,1 @@
-react js is javacript 
+react js is javascript library
