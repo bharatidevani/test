@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62%;
+}
+
+.main_header {
+  width: 100vh;
+  height: 100vh;
+  background-color: #749ab3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main_header h1 {
+  color: #e74c3c;
+  font-size: 5rem;
+  letter-spacing: 1.1rem;
+}
+.main_header h1:hover {
+  color: white;
+  font-size: 5rem;
+}
+.main_header h1::after {
+  content: " hello";
+}
+.main_header p {
+  color: #e74c3c;
+  font-size: 5rem;
+  letter-spacing: 0.1rem;
+}
+.main_header p:hover {
+  color: white;
+  font-size: 5rem;
+}/*# sourceMappingURL=main.css.map */

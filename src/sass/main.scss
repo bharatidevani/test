@@ -1,0 +1,47 @@
+$bgcolor: #749ab3;
+$fontcolor: #e74c3c;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62%;
+}
+
+@mixin commonflex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@mixin commoncode($space) {
+  color: $fontcolor;
+  font-size: 5rem;
+  letter-spacing: $space;
+}
+
+.main_header {
+  width: 100vh;
+  height: 100vh;
+  background-color: $bgcolor;
+  @include commonflex;
+
+  h1 {
+    @include commoncode(1.1rem);
+    &:hover {
+      color: white;
+      font-size: 5rem;
+    }
+    &::after {
+      content: " hello";
+    }
+  }
+
+  p {
+    @include commoncode(0.1rem);
+
+    &:hover {
+      color: white;
+      font-size: 5rem;
+    }
+  }
+}
